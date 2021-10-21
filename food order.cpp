@@ -38,9 +38,9 @@ if(!write)
 }
 
    a:
-   	b:
-   		c:
-   	 cout<<"\n\n\tENTER YOUR ORDER (one order at a time): "; 
+   b:
+   c:
+      cout<<"\n\n\tENTER YOUR ORDER (one order at a time): "; 
       cin>>ch;
     
       
@@ -57,7 +57,7 @@ if(!write)
    switch(ch)
    {
    	case 1:
-   			cout<<"\n\n\tHOW MANY PIZZA YOU WANT :";
+   		cout<<"\n\n\tHOW MANY PIZZA YOU WANT :";
    		cin>>pizza;
    	
    		a=480;
@@ -77,7 +77,7 @@ if(!write)
    		s=s+b*pizza;
    		write<<"YOU ORDER  Exotica : 440";
    		write<<" \n";
-   			write<<"NUMBER OF PIZZA IS : "<<pizza;
+   		write<<"NUMBER OF PIZZA IS : "<<pizza;
    		write<<"\n";
    	cout<<"\n\n\n\tYOU ORDER  Exotica "<<endl<<"\tYOUR ORDER SUCCESSFULLY SAVED "<<endl;
    	break;
@@ -90,8 +90,8 @@ if(!write)
    		s=s+c*pizza;
    			write<<"YOU ORDER  Chicken Sizzler : 580";
    			write<<" \n";
-   				write<<"NUMBER OF Chicken Sizzler IS : "<<pizza;
-   		write<<"\n";
+   			write<<"NUMBER OF Chicken Sizzler IS : "<<pizza;
+   		        write<<"\n";
    	cout<<"\n\n\n\tYOU ORDER  Chicken Sizzler "<<endl<<"\tYOUR ORDER SUCCESSFULLY SAVED "<<endl;
    	break;
    	
@@ -102,7 +102,7 @@ if(!write)
    		d=520;
    		s=s+d*pizza;
    		write<<"YOU ORDER  Chrispy Chicken : 520";
-   	write<<" \n";
+   	 	write<<" \n";
    		write<<"NUMBER OF Chrispy Chicken IS : "<<pizza;
    		write<<"\n";
 	   cout<<"\n\n\n\tYOU ORDER  Chrispy Chicken "<<endl<<"\tYOUR ORDER SUCCESSFULLY SAVED "<<endl;
@@ -116,7 +116,7 @@ if(!write)
    		s=s+e*pizza;
    		write<<"YOU ORDER  Spaghetti : 350";
    		write<<" \n";
-   			write<<"NUMBER OF Spaghetti IS : "<<pizza;
+   		write<<"NUMBER OF Spaghetti IS : "<<pizza;
    		write<<"\n";
    	cout<<"\n\n\n\tYOU ORDER  Spaghetti "<<endl<<"\tYOUR ORDER SUCCESSFULLY SAVED "<<endl;
    	break;
@@ -129,7 +129,7 @@ if(!write)
    		s=s+f*pizza;
    		write<<"YOU ORDER Country Feast : 400";
    		write<<"\n ";
-   			write<<"NUMBER OF PIZZA IS : "<<pizza;
+   		write<<"NUMBER OF PIZZA IS : "<<pizza;
    		write<<"\n";
    	cout<<"\n\n\n\tYOU ORDER Country Feast "<<endl<<"\tYOUR ORDER SUCCESSFULLY SAVED "<<endl;
    	break;
@@ -142,7 +142,7 @@ if(!write)
    		s=s+g*pizza;
    		write<<"YOU ORDER Tetrazzini : 420";
    		write<<"\n ";
-   			write<<"NUMBER OF Tetrazzini IS : "<<pizza;
+   		write<<"NUMBER OF Tetrazzini IS : "<<pizza;
    		write<<"\n";
    	cout<<"\n\n\n\tYOU ORDER  Tetrazzini "<<endl<<"\tYOUR ORDER SUCCESSFULLY SAVED "<<endl;
    	break;
@@ -155,7 +155,7 @@ if(!write)
    		s=s+h*pizza;
    		write<<"YOU ORDER Double Cheese : 540";
    		write<<" \n";
-   			write<<"NUMBER OF PIZZA IS : "<<pizza;
+   		write<<"NUMBER OF PIZZA IS : "<<pizza;
    		write<<"\n";
    	cout<<"\n\n\n\tYOU ORDER   Double Cheese "<<endl<<"\tYOUR ORDER SUCCESSFULLY SAVED "<<endl;
    	break;
@@ -168,7 +168,7 @@ if(!write)
 		s=s+i*pizza;
 		write<<"YOU ORDER Makizushi : 548";
 		write<<" \n";
-			write<<"NUMBER OF Makizushi IS : "<<pizza;
+		write<<"NUMBER OF Makizushi IS : "<<pizza;
    		write<<"\n";
    	cout<<"\n\n\n\tYOU ORDER Makizushi "<<endl<<"\tYOUR ORDER SUCCESSFULLY SAVED "<<endl;
    	break;
@@ -181,20 +181,20 @@ if(!write)
    		s=s+j*pizza;
    		write<<"YOU ORDER Ham Burger : 390";
    		write<<" \n";
-   			write<<"NUMBER OF Ham Burger IS : "<<pizza;
+   		write<<"NUMBER OF Ham Burger IS : "<<pizza;
    		write<<"\n";
    	cout<<"\n\n\n\tYOU ORDER Ham Burger "<<endl<<"\tYOUR ORDER SUCCESSFULLY SAVED "<<endl;
    	break;
    	
    	case 11:
-   			cout<<"\n\n\tHOW MANY PIZZA YOU WANT :";
+   		cout<<"\n\n\tHOW MANY PIZZA YOU WANT :";
    		cin>>pizza;
    	
    		k=525;
    		s=s+k*pizza;
    		write<<"YOU ORDER Margherita : 525";
    		write<<" \n";
-   			write<<"NUMBER OF PIZZA IS : "<<pizza;
+   		write<<"NUMBER OF PIZZA IS : "<<pizza;
    		write<<"\n";
    	cout<<"\n\n\n\tYOU ORDER   Margherita "<<endl<<"\tYOUR ORDER SUCCESSFULLY SAVED "<<endl;
    	break;
@@ -207,7 +207,7 @@ if(!write)
    		s=s+l*pizza;
    		write<<"YOU ORDER Fish 'n' Chips : 425";
    		write<<" \n";
-   			write<<"NUMBER OF Fish 'n' Chips IS : "<<pizza;
+   		write<<"NUMBER OF Fish 'n' Chips IS : "<<pizza;
    		write<<"\n";
    	cout<<"\n\n\n\tYOU ORDER  Fish 'n' Chips "<<endl<<"\tYOUR ORDER SUCCESSFULLY SAVED "<<endl;
    	break;
@@ -220,7 +220,7 @@ if(!write)
    		s=s+m*pizza;
    		write<<"YOU ORDER  Fajitas  : 335";
    		write<<" \n";
-   			write<<"NUMBER OF Fajitas IS : "<<pizza;
+   		write<<"NUMBER OF Fajitas IS : "<<pizza;
    		write<<"\n";
    	cout<<"\n\n\n\tYOU ORDER Fajitas "<<endl<<"\tYOUR ORDER SUCCESSFULLY SAVED "<<endl;
    	break;
@@ -233,7 +233,7 @@ if(!write)
    		s=s+n*pizza;
    		write<<"YOU ORDER Tempura : 324";
    		write<<" \n";
-   			write<<"NUMBER OF Tempura IS : "<<pizza;
+   		write<<"NUMBER OF Tempura IS : "<<pizza;
    		write<<"\n";
    	cout<<"\n\n\n\tYOU ORDER  Tempura "<<endl<<"\tYOUR ORDER SUCCESSFULLY SAVED "<<endl;
    	break;
@@ -246,7 +246,7 @@ if(!write)
    		s=s+o*pizza; 
    		write<<"YOU ORDER  Hot Dog : 360";
    		write<<"\n ";
-   			write<<"NUMBER OF Hot Dog IS : "<<pizza;
+   		write<<"NUMBER OF Hot Dog IS : "<<pizza;
    		write<<"\n";
    	cout<<"\n\n\n\tYOU ORDER  Hot Dog "<<endl<<"\tYOUR ORDER SUCCESSFULLY SAVED "<<endl;
    	break;
